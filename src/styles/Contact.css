@@ -1,0 +1,24 @@
+/* Contact.css */
+
+.contact {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  height: 82vh;
+  text-align: center;
+  justify-content: center;
+  
+  flex-direction: row;
+  background-color: beige; 
+  }
+  .contact h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    font-size: 10vh;
+  }
+  .contact p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: grid;
+   font-size: 2vh;
+   
+  }

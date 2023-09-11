@@ -1,0 +1,64 @@
+.currently {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(19, 26, 68);
+}
+.currently .currentlyTitle {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 60px;
+}
+
+.currentlyList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+
+
+.currentlyItem {
+  border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.currentlyItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.currentlyItem div {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.currentlyItem h1,
+.currentlyItem p {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .currentlyList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .currentlyList {
+    grid-template-columns: 1fr;
+  }
+}
